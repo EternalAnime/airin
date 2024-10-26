@@ -288,8 +288,7 @@ function Navbarcomponent({ home = false }) {
                             color="secondary"
                             name={data?.user?.name}
                             size="sm"
-                            src={data?.user?.image?.large || data?.user?.image?.medium || "https://raw.githubusercontent.com/EternalAnime/skyv1anime/main/public/SKYANIME.png
-"}
+                            src={data?.user?.image?.large || data?.user?.image?.medium || "https://raw.githubusercontent.com/EternalAnime/skyv1anime/main/public/SKYANIME.png"}
                         />
                     </DropdownTrigger>
                     {isLoggedIn ? (
