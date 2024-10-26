@@ -60,8 +60,9 @@ const releaseLogs = [
         changes: [
             "Fixed new anime not showing.",
             "Fixed anime not found issue.",
-            "Fixed recent episodes",
-            "Fixed Player Not Working Properly",
+            "Updated recent episodes",
+            "Updated menu",
+            "Added More Features",
             "Fixed Some Bugs",
         ],
     },
@@ -98,9 +99,9 @@ export default function Changelogs() {
                                     <div className="flex justify-between items-center gap-2">
                                         <p className="text-lg sm:text-xl">Changelogs</p>
                                         <div className="flex gap-3 items-center">
-                                            {/* Github Icon */}
+                                            {/* Instagram Icon */}
                                             <Link
-                                                href="https://github.com/Noname968/airin"
+                                                href="https://www.instagram.com/rishab_morningstar/"
                                                 target="_blank"
                                                 className="w-5 h-5 hover:opacity-75"
                                             >
@@ -130,7 +131,7 @@ export default function Changelogs() {
                                             </Link>
                                             {/* Discord Icon */}
                                             <Link
-                                                href="https://discord.gg/QnbFaudJNf"
+                                                href="https://discord.gg/ptu7UeFth8"
                                                 target="_blank"
                                                 className="w-6 h-6 hover:opacity-75"
                                             >
@@ -149,7 +150,7 @@ export default function Changelogs() {
                                     </div>
                                     <div className="mt-4">
                                         <p className="text-sm text-gray-400">
-                                            Hi there! 🎉 Welcome to the Changelogs section! 🌟 Here, explore the latest updates made to the site! 🚀
+                                            Hey there! 🎉 Welcome to the Changelogs section! 🌟 Here, explore the latest updates made to the site! 🚀
                                         </p>
                                     </div>
                                     <div className="my-3 flex items-center justify-evenly flex-col">
