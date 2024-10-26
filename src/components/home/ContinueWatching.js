@@ -123,7 +123,7 @@ function ContinueWatching({ session }) {
         <div className='flex flex-col mb-6 md:mb-5'>
             <div className="flex items-center gap-2 px-3 xl:px-0">
                 <span className="w-[0.35rem] h-6 md:w-[0.3rem] md:h-8 rounded-md bg-white"></span>
-                <h1 className="text-[19px] sm:text-[21px] my-4 font-medium xl:text-2xl">Continue Watching</h1>
+                <h1 className="text-[19px] sm:text-[21px] my-4 font-medium xl:text-2xl">Watch Where You Lefft</h1>
             </div>
             <div className="flex items-center flex-nowrap scrollbar-hide overflow-x-auto gap-4 pl-3 xl:pl-0" {...events} ref={containerRef}>
                 {!loading && storedData?.map((anime) => (
